@@ -5,36 +5,21 @@ body {
   width: 100%;
   min-height: 100%;
   border: none;
-  border-radius: 10px;
-  background-image: url("./images/plume-signin-background.png");
+  border-radius: 1rem;
+  /* background-image: url("./images/plume-signin-background.png"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: auto;
   position: absolute;
-  text-align: center;
-}
-
-.info-board {
-  position: relative;
-  font-size: large;
-  font-family: sans-serif;
-  font-weight: bold;
-  padding: 5px 30px 5px 30px;
-  color: rgb(86, 43, 27);
-  border-radius: 10px;
-  background: hsla(0, 0%, 72%, 0.834);
-  margin: 20px auto;
-  width: 320px;
-  height: 150px;
-  text-align: left;
+  /* text-align: center; */
 }
 
 .to-right-sign {
   position: relative;
-  top: -115px;
-  right: -180px;
+  top: -11.5rem;
+  right: -18rem;
   margin: 0;
   opacity: 0.4;
 }
@@ -46,8 +31,8 @@ body {
 
 .to-left-sign {
   position: relative;
-  top: -115px;
-  left: -180px;
+  top: -11.5rem;
+  left: -18rem;
   margin: 0;
   opacity: 0.4;
 }
@@ -59,17 +44,17 @@ body {
 
 .control-panel-text-box {
   outline: none;
-  border-width: 0.5px;
-  border-radius: 5px;
+  border-width: 0.5rem;
+  border-radius: 0.5rem;
   background: transparent;
-  width: 300px;
-  height: 25px;
-  padding: 3px 10px 3px 10px;
+  width: 30rem;
+  height: 2.5rem;
+  padding: 0.3rem 1rem 0.3rem 1rem;
   position: relative;
   font-size: medium;
   font-family: sans-serif;
   color: rgb(86, 43, 27);
-  margin: 5px auto;
+  margin: 0.5rem auto;
 }
 
 .control-panel-headline {
@@ -77,93 +62,26 @@ body {
 }
 
 .deposit-field {
-  font-size: 16px;
-}
-
-.text-based-info {
-  display: inline-flexbox;
-  font-weight: bolder;
-  padding: 2px;
-  margin: 0 auto;
+  font-size: 1.6rem;
 }
 
 .notif {
-  /* max-width: 200px; */
   z-index: 9999;
   text-align: left;
-}
-
-.title {
-  font-size: 2.5em;
-  color: #f8f8f8;
-  text-shadow: 1px 1px 0 #505050, 2px 2px 0 #333;
-  transform: rotate(-0.5deg);
-  margin: 50px auto;
-  cursor: pointer;
-  border: 1px solid #505050;
-  padding: 5px;
-  background-color: #505050;
-  height: 65px;
-  width: 200px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: color 0.3s ease, background-color 0.3s ease;
-  z-index: 0;
-}
-
-.title:hover {
-  color: #a8e72f;
-  background-color: #000;
-}
-
-.main-buttons {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 40px;
-}
-
-.signin-button {
-  background-color: #f8f8f8;
-  color: #505050;
-  padding: 10px 20px;
-  border: 1px solid #505050;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 40px;
-  box-shadow: 1px 1px 0 #555, 2px 2px 0 #333;
-  transition: transform 0.3s ease;
-  position: relative;
-  top: -50px;
-  margin: 0 auto;
-}
-
-.signin-button:hover {
-  transform: translateY(-3px);
-  background-color: #000;
-  color: #f8f8f8;
 }
 
 .joyid-connect {
   background-color: #f8f8f8;
   color: #505050;
   justify-content: left;
-  box-shadow: 2px 2px 0 #354f32, 4px 4px 0 #2b5328;
-  padding: 1px 20px;
+  box-shadow: 0.2rem 0.2rem 0 #354f32, 0.4rem 0.4rem 0 #2b5328;
+  padding: 0.1rem 2rem;
   background-image: url("./images/joyid-logo.png");
-  background-size: 30px;
-  background-position: right 10px center;
+  background-size: 3rem;
+  background-position: right 1rem center;
   background-repeat: no-repeat;
-  top: 25px;
-  margin: 0 auto 20px auto;
+  top: 2.5rem;
+  margin: 0 auto 2rem auto;
 }
 
 .joyid-connect:hover {
@@ -174,10 +92,10 @@ body {
 .other-wallet-connect {
   background-color: #f8f8f8;
   color: #505050;
-  box-shadow: 2px 2px 0 #81773c, 4px 4px 0 #694427;
+  box-shadow: 0.2rem 0.2rem 0 #81773c, 0.4rem 0.4rem 0 #694427;
   margin-top: 10%;
-  top: 30px;
-  margin: 20px auto 12px auto;
+  top: 3rem;
+  margin: 2rem auto 1.2rem auto;
 }
 
 .other-wallet-connect:hover {
@@ -188,41 +106,26 @@ body {
 .sign-out-button {
   background-color: #f8f8f8;
   color: #505050;
-  padding: 10px 10px 10px 10px;
-  border: 3px solid #505050;
-  border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 0.3rem solid #505050;
+  border-radius: 0.5rem;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transform: translateY(2px);
-  font-size: 15px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transform: translateY(0.2rem);
+  font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: left;
-  width: 200px;
-  height: 40px;
-  background-size: 25px;
-  background-position: right 10px center;
+  width: 20rem;
+  height: 4rem;
+  background-size: 2.5rem;
+  background-position: right 1rem center;
   background-repeat: no-repeat;
   font-weight: bold;
   position: relative;
-  box-shadow: 1px 1px 0 #555, 2px 2px 0 #333;
+  box-shadow: 0.1rem 0.1rem 0 #555, 0.2rem 0.2rem 0 #333;
   transition: transform 0.3s ease;
-}
-
-.copy-sign {
-  position: relative;
-  font-size: 20px;
-  font-weight: bolder;
-  color: rgb(126, 78, 9);
-  left: 10px;
-  margin: 0 auto;
-}
-
-.copy-sign:hover {
-  opacity: 1;
-  animation: rainbow 5s linear infinite;
-  cursor: pointer;
 }
 
 @keyframes rainbow {
@@ -244,7 +147,7 @@ body {
 }
 
 .sign-out-button:hover {
-  transform: translateY(-3px);
+  transform: translateY(-0.3rem);
   background-color: #000;
   color: #a8e72f;
 }
@@ -252,23 +155,23 @@ body {
 .sign-out-button {
   background-color: #f8f8f8;
   color: #505050;
-  padding: 5px 10px;
-  border: 1px solid #505050;
-  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #505050;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: transform 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  transform: translateY(2px);
-  font-size: 15px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transform: translateY(0.2rem);
+  font-size: 1.5rem;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 1px 0 #555, 2px 2px 0 #333;
+  box-shadow: 0.1rem 0.1rem 0 #555, 0.2rem 0.2rem 0 #333;
   position: relative;
-  margin-right: 20px;
-  width: 200px;
-  height: 40px;
+  margin-right: 2rem;
+  width: 20rem;
+  height: 4rem;
 }
 
 .sign-out-button:hover {
@@ -279,46 +182,44 @@ body {
 @keyframes fadeIntro {
   0% {
     opacity: 0;
-    transform: scale(0.9);
   }
   100% {
     opacity: 1;
-    transform: scale(1);
   }
 }
 
 .poly-morph-button {
   background-color: #f8f8f8;
   color: #505050;
-  padding: 10px 20px;
-  border: 1px solid #505050;
-  border-radius: 5px;
+  padding: 1rem 2rem;
+  border: 0.1rem solid #505050;
+  border-radius: 0.5rem;
   cursor: pointer;
-  transform: translateY(2px);
-  font-size: 15px;
+  transform: translateY(0.2rem);
+  font-size: 1.5rem;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: 25px;
-  background-position: right 10px center;
+  background-size: 2.5rem;
+  background-position: right 1rem center;
   background-repeat: no-repeat;
   font-weight: bold;
-  width: 200px;
-  height: 40px;
-  box-shadow: 1px 1px 0 #555, 2px 2px 0 #333;
+  width: 20rem;
+  height: 4rem;
+  box-shadow: 0.1rem 0.1rem 0 #555, 0.2rem 0.2rem 0 #333;
   transition: transform 0.3s ease;
 }
 
 .poly-morph-button:hover {
-  transform: translateY(-3px);
+  transform: translateY(-0.3rem);
   background-color: #000;
   color: #a8e72f;
 }
 
 /* .max-deposit {
   position: relative;
-  left: -40px;
+  left: -4rem;
   cursor: pointer;
   font-weight: bold;
   color: #597415;
@@ -337,7 +238,7 @@ body {
   height: 60vh;
   background-image: url("./images/poster.png");
   background-size: 100vh;
-  background-position: top 100px;
+  background-position: top 10rem;
   background-repeat: no-repeat;
   z-index: inherit;
   margin: 0 auto;
@@ -351,15 +252,15 @@ body {
   cursor: pointer;
 }
 
-.cell-grid {
+/* .cell-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   max-width: 80%;
-  grid-gap: 0px;
-  margin: 0 auto 20px auto;
-}
+  grid-gap: 0;
+  margin: 0 auto 2rem auto;
+} */
 
 @keyframes blink {
   0% {
@@ -373,38 +274,13 @@ body {
   }
 }
 
-.no-deposit-message {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 5%;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #f8f8f8;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 2px 2px 0 #505050;
-  background-color: #505050;
-  border-radius: 10px;
-  padding: 20px;
-  animation: bounce 1s ease-in-out infinite;
-  position: relative;
-  top: 100px;
-  border: 1px solid #505050;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.no-deposit-message:hover {
-  color: #a8e72f;
-  background-color: #000;
-}
-
 @keyframes bounce {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-1rem);
   }
 }
 
@@ -420,10 +296,10 @@ body {
 }
 
 .loading-circle {
-  border: 5px solid transparent;
+  border: 0.5rem solid transparent;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 8rem;
+  height: 8rem;
   animation: spin 1s linear infinite, loading-rainbow 5s linear infinite;
   z-index: 999;
 }
@@ -501,32 +377,15 @@ body {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-180deg);
   }
 }
 
-.loading-circle-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: fixed;
-  top: 40vh;
-}
-
 .tx-confirmation-message {
-  margin-top: 20px;
-  font-size: 16px;
+  margin-top: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #333;
-}
-
-.description {
-  position: relative;
-  top: -40px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #cecece;
-  transform: rotate(-0.5deg);
 }
 
 @keyframes blink {
@@ -541,28 +400,11 @@ body {
   }
 }
 
-.dao-cell-dummy {
-  border: 1px solid #ddd;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
-  width: var(--cellWidth);
-  height: var(--cellHeight);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f8f8f8;
-  position: relative;
-  opacity: 0.2;
-  box-shadow: 1px 1px 0 #555, 2px 2px 0 #333;
-}
-
 .dao-cell {
-  border: 1px solid var(--backgroundColor);
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  border: 0.1rem solid var(--backgroundColor);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
   width: var(--cellWidth);
   height: var(--cellHeight);
   display: flex;
@@ -570,26 +412,26 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--backgroundColor);
-  transform: perspective(1000px) rotateY(1deg);
+  transform: perspective(100rem) rotateY(1deg);
   backface-visibility: hidden;
   transition: transform 0.3s ease-in-out;
   animation: fadeIntro 0.5s ease-in-out;
   font-size: 1.2em;
   position: relative;
-  box-shadow: 1px 1px 0 #555, 2px 2px 0 #333;
+  box-shadow: 0.1rem 0.1rem 0 #555, 0.2rem 0.2rem 0 #333;
   cursor: pointer;
 }
 
 .dao-cell::after {
   content: "";
   position: absolute;
-  top: -5px;
-  right: -5px;
-  width: 18px;
-  height: 18px;
+  top: -0.5rem;
+  right: -0.5rem;
+  width: 1.8rem;
+  height: 1.8rem;
   background-color: #e2e2e2;
   border-radius: 50%;
-  border: 0.5px solid #000;
+  border: 0.5rem solid #000;
   opacity: var(--opacityCtrl, 0.2);
   transition: opacity 0.3s ease-in-out;
 }
@@ -599,25 +441,26 @@ body {
 }
 
 .checkmark-area {
+  /* display: none; */
   position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 18px;
-  height: 18px;
+  top: 0;
+  right: 0;
+  width: 1.8rem;
+  height: 1.8rem;
   opacity: var(--opacityCtrl);
   z-index: 1;
 }
 
 .checkmark-area:before {
   position: absolute;
-  height: 8px;
-  width: 4px;
-  border-bottom: 2px solid #000000;
-  border-right: 2px solid #000000;
+  height: 0.8rem;
+  width: 0.4rem;
+  border-bottom: 0.2rem solid #000000;
+  border-right: 0.2rem solid #000000;
   content: "";
   transform: rotate(45deg);
-  left: 10px;
-  top: -1px;
+  left: 1rem;
+  top: -0.1rem;
 }
 
 .checkmark-area:hover {
@@ -625,26 +468,26 @@ body {
 }
 
 .dao-cell:hover {
-  transform: translateY(-3px);
+  transform: translateY(-0.3rem);
   color: textColor;
   position: relative;
 }
 
 .dao-cell-button {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05), 0 0 20px rgba(0, 0, 0, 0.1),
-    0 0 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05), 0 0 2rem rgba(0, 0, 0, 0.1),
+    0 0 3rem rgba(0, 0, 0, 0.15);
   background-color: var(--buttonColor);
   color: var(--textColor);
-  border-width: 0.1px;
-  border-radius: 2px;
+  border-width: 0.1rem;
+  border-radius: 0.2rem;
   border-color: #000000;
   cursor: pointer;
   font-size: 0.8em;
   position: absolute;
-  bottom: 5px;
-  width: 110px;
-  height: 30px;
-  margin: 0px auto;
+  bottom: 0.5rem;
+  width: 11rem;
+  height: 3rem;
+  margin: 0 auto;
   z-index: 1;
   transition: transform 0.2s ease;
 }
@@ -652,10 +495,10 @@ body {
 .dao-cell-button::before {
   content: "";
   position: absolute;
-  top: -1.5px;
-  left: -1.5px;
-  width: 3px;
-  height: 3px;
+  top: -1.5rem;
+  left: -1.5rem;
+  width: 0.3rem;
+  height: 0.3rem;
   background-color: #fbff00;
   border-radius: 50%;
 }
@@ -667,73 +510,21 @@ body {
 }
 
 .button-border-progress-bar {
-  width: 110px;
-  height: 30px;
-  border-radius: 2px;
+  /* display: none; */
+  width: 11rem;
+  height: 3rem;
+  border-radius: 0.2rem;
   background: linear-gradient(to right, #fbff00 99.99%, transparent),
     linear-gradient(to bottom, #fbff00 99.99%, transparent),
     linear-gradient(to right, #fbff00 99.99%, transparent),
     linear-gradient(to bottom, #fbff00 99.99%, transparent);
-  background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+  background-size: 100% 0.2rem, 0.2rem 100%, 100% 0.2rem, 0.2rem 100%;
   background-repeat: no-repeat;
   background-position: var(--backgroundPos);
   position: relative;
-  top: 45px;
+  top: 4.5rem;
   z-index: 1;
   cursor: pointer;
-}
-
-.button-border-progress-bar.ripe {
-  animation: shake 0.8s;
-  animation-iteration-count: infinite;
-  animation-delay: var(--animationDelay);
-}
-
-.ReactModal__Content {
-  max-width: 300px;
-  margin: 20px auto;
-  padding: 10px;
-  background-color: #ffffff;
-  border: none;
-  border-radius: 10px !important;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05), 0 0 20px rgba(0, 0, 0, 0.1),
-    0 0 30px rgba(0, 0, 0, 0.15);
-  transition: transform 0.5s ease-in-out;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  align-self: flex-start;
-  margin-top: 25vh;
-  min-height: 20vh;
-  animation: fadeIntro 0.5s ease-in-out;
-}
-
-.ReactModal__Overlay {
-  background-color: rgba(18, 19, 24, 0.7) !important;
-}
-
-.modal-loading-overlay {
-  position: absolute;
-  width: 100%;
-  height: 90%;
-  background-color: rgba(255, 255, 255, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
-
-.modal-loading-circle {
-  border: 4px solid #333;
-  border-top-color: transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  position: relative;
-  animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -745,78 +536,39 @@ body {
   }
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-around;
-}
-
-button.proceed,
-button.cancel {
-  padding: 10px 20px;
-  border-width: 0.5px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 5px;
-  transition: transform 0.3s ease;
-}
-
-button.proceed {
-  background-color: #6ec824; /* Green */
-  color: rgb(0, 0, 0);
-}
-
-button.proceed:hover {
-  transform: translateY(-3px);
-}
-
-button.proceed:disabled {
-  background-color: #cccccc; /* Gray */
-  cursor: not-allowed;
-}
-
-button.cancel {
-  background-color: #e55603; /* Red */
-  color: rgb(0, 0, 0);
-}
-
-button.cancel:hover {
-  transform: translateY(-3px);
-}
-
 @keyframes shake {
   0% {
-    transform: translate(1px, 1px) rotate(0deg);
+    transform: translate(0.1rem, 0.1rem) rotate(0deg);
   }
   10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
+    transform: translate(-0.1rem, -0.2rem) rotate(-1deg);
   }
   20% {
-    transform: translate(-3px, 0px) rotate(1deg);
+    transform: translate(-0.3rem, 0) rotate(1deg);
   }
   30% {
-    transform: translate(3px, 2px) rotate(0deg);
+    transform: translate(0.3rem, 0.2rem) rotate(0deg);
   }
   40% {
-    transform: translate(1px, -1px) rotate(1deg);
+    transform: translate(0.1rem, -0.1rem) rotate(1deg);
   }
   50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
+    transform: translate(-0.1rem, 0.2rem) rotate(-1deg);
   }
   60% {
-    transform: translate(-3px, 1px) rotate(0deg);
+    transform: translate(-0.3rem, 0.1rem) rotate(0deg);
   }
   70% {
-    transform: translate(3px, 1px) rotate(-1deg);
+    transform: translate(0.3rem, 0.1rem) rotate(-1deg);
   }
   80% {
-    transform: translate(-1px, -1px) rotate(1deg);
+    transform: translate(-0.1rem, -0.1rem) rotate(1deg);
   }
   90% {
-    transform: translate(1px, 2px) rotate(0deg);
+    transform: translate(0.1rem, 0.2rem) rotate(0deg);
   }
   100% {
-    transform: translate(1px, -2px) rotate(-1deg);
+    transform: translate(0.1rem, -0.2rem) rotate(-1deg);
   }
 }
 
@@ -828,60 +580,21 @@ button.cancel:hover {
 .connect-wallet {
   font-size: 1.3em;
   font-weight: bold;
-  width: 200px;
+  width: 20rem;
   text-align: center;
   margin: 0 auto;
 }
 
 .main-wallet-option {
-  top: 20px;
-  max-height: 200px;
-  min-height: 170px;
+  top: 2rem;
+  max-height: 20rem;
+  min-height: 17rem;
 }
 
 .headline-separation {
-  border-top: 1px solid #000;
+  border-top: 0.1rem solid #000;
   width: 100%;
-  margin: 0px auto 10px auto;
-}
-
-.dao-transition-message {
-  margin: 0.1em;
-  font-size: 1em;
-  font-weight: bold;
-  color: cadetblue;
-}
-
-.dao-transition-message.deposit {
-  text-align: left;
-}
-
-.dao-transition-message.headline {
-  text-align: center;
-  font-weight: bolder;
-}
-
-.dao-transition-message-sample-image {
-  background-image: url("./images/example-progess.png");
-  width: 100px;
-  height: 35px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  position: relative;
-  margin: 0 auto;
-  border-radius: 5px;
-}
-
-.deposit-circular-progress-bar {
-  margin: 10px;
-}
-
-.highlight {
-  margin: 0.1em;
-  font-size: 1em;
-  font-weight: bold;
-  animation: warningAnimation 1s infinite alternate;
+  margin: 0 auto 1rem auto;
 }
 
 @keyframes warningAnimation {
@@ -892,155 +605,5 @@ button.cancel:hover {
   100% {
     color: rgb(255, 123, 0);
     transform: scale(1.1);
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    background-image: url("./images/plume-signin-background_portrait.png");
-  }
-
-  .info-board {
-    font-size: medium;
-    width: 270px;
-  }
-
-  .to-right-sign {
-    top: -100px;
-    right: -155px;
-  }
-  
-  .to-left-sign {
-    top: -100px;
-    left: -155px;
-  }
-
-  .control-panel-text-box {
-    width: 250px;
-    height: 30px;
-  }
-
-  .headline-separation {
-    width: 270px;
-  }
-
-  .title {
-    font-size: 2.4em;
-    height: 45px;
-    width: 150px;
-    font-weight: 600;
-  }
-
-  .description {
-    top: -30px;
-  }
-
-  .main-buttons {
-    margin-bottom: 5px;
-  }
-
-  .signin-button,
-  .sign-out-button,
-  .poly-morph-button {
-    width: 150px;
-    height: 40px;
-    padding: 5px 10px 5px 10px;
-    font-size: 14px;
-    margin-bottom: 30px;
-    font-weight: bold;
-  }
-
-  .signin-button {
-    background-position: right 10px center;
-    background-size: 35px;
-    padding-left: 2px;
-    width: 180px;
-    height: 45px;
-    font-size: 1.5em;
-    position: relative;
-    top: -50px;
-  }
-
-  .copy-sign {
-    font-size: 16px;
-  }
-
-  .joyid-connect {
-    font-size: 1em;
-    top: 25px;
-    padding: 1px 15px;
-    background-size: 30px;
-  }
-
-  .other-wallet-connect {
-    font-size: 1em;
-    top: 25px;
-  }
-
-  .entrance-decor {
-    left: 0.1%;
-    width: 45vh;
-    height: 45vh;
-    background-image: url("./images/poster-mobile.png");
-    background-size: 45vh;
-  }
-
-  .cell-grid {
-    max-width: 100%;
-  }
-
-  .dao-cell-dummy {
-    padding: 3px;
-    margin: 3px;
-    border-radius: 10px;
-    font-size: 16px;
-    height: var(--cellHeight);
-  }
-
-  .dao-cell {
-    padding: 3px;
-    margin: 4px;
-    border-radius: 10px;
-    font-size: 16px;
-    height: var(--cellHeight);
-  }
-
-  .dao-cell-button {
-    font-size: 0.8em;
-    border-radius: 2px;
-    width: 90px;
-    height: 30px;
-  }
-
-  .dao-cell-button::before {
-    border-radius: 7px;
-  }
-
-  .button-border-progress-bar {
-    width: 90px;
-    height: 30px;
-    border-radius: 2px;
-    background-size: 100% 1.5px, 1.5px 100%, 100% 1.5px, 1.5px 100%;
-    position: relative;
-    top: 38px;
-    z-index: 1;
-  }
-
-  /* .max-deposit {
-    font-size: smaller;
-  } */
-
-  .no-deposit-message {
-    font-size: 1em;
-  }
-
-  .tx-confirmation-message {
-    font-size: 14px;
-  }
-
-  .ReactModal__Content {
-    max-width: 40vh;
-    padding: 20px;
-    min-width: 200px;
   }
 }
